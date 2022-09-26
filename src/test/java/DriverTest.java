@@ -1,11 +1,9 @@
-package test.java.com.example;
+package test.java;
 
-import static org.junit.jupiter.api.Assertions.*;
-
-import org.junit.jupiter.api.Assertions;
+//import org.junit.jupiter.api.Assertions;
 import org.junit.jupiter.api.Test;
 
-import main.java.com.example.Driver;
+//import main.java.Driver;
 
 
 public class DriverTest {
