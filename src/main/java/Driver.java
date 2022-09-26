@@ -7,7 +7,7 @@ package main.java;
  * @author yazzam
  *
  */
-public class Driver {
+class Driver {
 
 
     /**
