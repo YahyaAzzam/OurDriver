@@ -7,14 +7,14 @@ package main.java;
  * @author yazzam
  *
  */
-class Driver {
+public class Driver {
 
 
     /**
      * This is a java doc.
      * @param args
      */
-    public static void main(final String[] args) {
+    public void main(final String[] args) {
 
     }
 }
