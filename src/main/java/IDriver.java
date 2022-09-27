@@ -1,7 +1,7 @@
 package main.java;
 
 
-import netscape.javascript.JSObject;
+import org.json.JSONArray;
 
 public interface IDriver {
     /**
@@ -21,9 +21,9 @@ public interface IDriver {
      * @param tableName
      * @param value
      * @return
-     *      Array of json objects
+     *      Array of json objects of the rows
      */
-    JSObject[] getRow(String databaseName, String tableName, String value);
+    JSONArray getRow(String databaseName, String tableName, String value);
 
     /**
      * @param databaseName

@@ -2,7 +2,7 @@ package main.java;
 
 //import com.google.common.base.Strings;
 
-import netscape.javascript.JSObject;
+import org.json.JSONArray;
 
 /**
  * This is java doc.
@@ -22,7 +22,7 @@ public final class Driver implements IDriver {
     }
 
     @Override
-    public JSObject[] getRow(final String databaseName, final String tableName, final String value) {
+    public JSONArray getRow(final String databaseName, final String tableName, final String value) {
         return null;
     }
 
