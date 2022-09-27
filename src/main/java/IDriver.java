@@ -1,5 +1,8 @@
 package main.java;
 
+
+import netscape.javascript.JSObject;
+
 public interface IDriver {
     /**
      * @param databaseSchemaPath
@@ -17,8 +20,9 @@ public interface IDriver {
      * @param databaseName
      * @param tableName
      * @param value
+     * @return
      */
-    void getRow(String databaseName, String tableName, String value);
+    JSObject[] getRow(String databaseName, String tableName, String value);
 
     /**
      * @param databaseName

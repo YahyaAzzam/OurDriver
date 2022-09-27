@@ -2,6 +2,8 @@ package main.java;
 
 //import com.google.common.base.Strings;
 
+import netscape.javascript.JSObject;
+
 /**
  * This is java doc.
  * @author yazzam
@@ -20,8 +22,8 @@ public class Driver implements IDriver {
     }
 
     @Override
-    public void getRow(final String databaseName, final String tableName, final String value) {
-
+    public JSObject[] getRow(final String databaseName, final String tableName, final String value) {
+        return null;
     }
 
     @Override
