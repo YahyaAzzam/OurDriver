@@ -27,13 +27,13 @@ public final class Driver implements IDriver {
     }
 
     @Override
-    public void deleteRow(final String databaseName, final String tableName, final String value) {
-
+    public boolean deleteRow(final String databaseName, final String tableName, final String value) {
+        return true;
     }
 
     @Override
-    public void clearDatabase(final String databaseName) {
-
+    public boolean clearDatabase(final String databaseName) {
+        return true;
     }
 
     /**
