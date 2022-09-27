@@ -31,6 +31,11 @@ public final class Driver implements IDriver {
 
     }
 
+    @Override
+    public void clearDatabase(String databaseName) {
+
+    }
+
     /**
      * This is a java doc.
      * @param args

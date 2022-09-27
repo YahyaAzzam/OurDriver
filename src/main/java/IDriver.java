@@ -31,4 +31,9 @@ public interface IDriver {
      * @param value
      */
     void deleteRow(String databaseName, String tableName, String value);
+
+    /**
+     * @param databaseName
+     */
+    void clearDatabase(String databaseName);
 }

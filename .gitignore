@@ -18,3 +18,4 @@
 .idea/jarRepositories.xml
 .idea/compiler.xml
 *.class
+.idea/.name
