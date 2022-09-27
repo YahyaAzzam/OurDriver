@@ -21,6 +21,7 @@ public interface IDriver {
      * @param tableName
      * @param value
      * @return
+     *      Array of json objects
      */
     JSObject[] getRow(String databaseName, String tableName, String value);
 

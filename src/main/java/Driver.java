@@ -9,7 +9,7 @@ import netscape.javascript.JSObject;
  * @author yazzam
  *
  */
-public class Driver implements IDriver {
+public final class Driver implements IDriver {
 
     @Override
     public void createDatabase(final String databaseSchemaPath) {
