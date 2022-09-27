@@ -32,7 +32,7 @@ public final class Driver implements IDriver {
     }
 
     @Override
-    public void clearDatabase(String databaseName) {
+    public void clearDatabase(final String databaseName) {
 
     }
 
